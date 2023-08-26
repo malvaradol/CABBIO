@@ -79,6 +79,8 @@ Idealmente, tal como se mencionó antes, este proceso se debe repetir para cada 
     - Para calcular el R2 de Ramos-Onsins y Rozas: **Analysis - Population Size Changes** y seleccionar una especie en el menú desplegable. Repetir para las tres especies.
     - Para calcular la F y la D de Fu y Li: **Analysis - Fu and Li's (and other) tests** y seleccionar una especie en el menú desplegable. Repetir para las tres especies.
 
+> Teniendo en cuenta la explicación teórica, ¿qué procesos evolutivos y/o demográficos podemos inferir a partir de los estadísticos cálculados con nuestros datos?
+
 </p>
 
 ### Análisis de estructura genética
