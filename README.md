@@ -16,7 +16,7 @@ El estudio de la diversidad genetica es de gran importancia a la hora de estudia
 
 ## Lecturas recomendadas para antes de la sesión
 
-Pueden encontrar las lecturas recomendadas en la carpeta [lecturas_recomendadas](https://github.com/malvaradol/CABBIO/tree/main/lecturas_recomendadas)
+Pueden encontrar las lecturas recomendadas en esta [carpeta](https://github.com/malvaradol/CABBIO/tree/main/lecturas_recomendadas)
 
 ## Objetivo
 
@@ -107,7 +107,7 @@ La preparación del archivo input de STURCTURE es larga y tediosa, inicialmente 
 
 8. Una vez terminada la corrida, iremos a la carpeta del proyecto y comprimiremos la carpeta "Results" en formato .zip. Luego iremos a la página de [STRUCTURE harvester](https://taylor0.biology.ucla.edu/structureHarvester/), aqui cargaremos la carpeta comprimida y procederemos a analizar los resultados.
 
-9. Dentro del output de STRUCTURE harvester, la página nos ofrece una sección llamada Clumpp files de la cual descargaremos los archivos .indfile y .popfile correspondientes a K = 3, guardaremos una copia de cada uno en las carpetas de distruct y de CLUMPP. Posteriormente abriremos la terminal de comando de windows (cmd en Windows 10 o PowerShell en Windows 11) y usaremos comandos para movernos a la carpeta donde está instalado CLUMPP. Una vez en la carpeta de CLUMPP, es necesario crear un archivo de configuración con los parámetros necesarios para poder correr el programa para cada uno de los archivos guardados, este archivo se encuentra en [3_CLUMPP](https://github.com/malvaradol/CABBIO/tree/main/inputs_archivos/2_CLUMPP). Dado que el tiempo de corrida es bastante largo para el programa, los outputs se encuentran en la misma carpeta citada anteriormente como output_k3_ind y output_k3_pop. Estos son los archivos que usaremos en distruct.
+9. Dentro del output de STRUCTURE harvester, la página nos ofrece una sección llamada Clumpp files de la cual descargaremos los archivos .indfile y .popfile correspondientes a K = 3, guardaremos una copia de cada uno en las carpetas de distruct y de CLUMPP. Posteriormente abriremos la terminal de comando de windows (cmd en Windows 10 o PowerShell en Windows 11) y usaremos comandos para movernos a la carpeta donde está instalado CLUMPP. Una vez en la carpeta de CLUMPP, es necesario crear un archivo de configuración con los parámetros necesarios para poder correr el programa para cada uno de los archivos guardados, este archivo se encuentra en [3_CLUMPP](https://github.com/malvaradol/CABBIO/tree/main/inputs_archivos/3_CLUMPP). Dado que el tiempo de corrida es bastante largo para el programa, los outputs se encuentran en la misma carpeta citada anteriormente como output_k3_ind y output_k3_pop. Estos son los archivos que usaremos en distruct.
 
 10. Finalmente crearemos los diferentes archivos de personalización de distruct que se pueden encontrar en la carpeta [4_DISTRUCT](https://github.com/malvaradol/CABBIO/tree/main/inputs_archivos/4_DISTRUCT/K3), y luego procederemos a correr el programa y obtener la gráfica final.
 
@@ -115,6 +115,8 @@ La preparación del archivo input de STURCTURE es larga y tediosa, inicialmente 
 
 #### Test de Barrera
 
-Para finalizar el análisis de estructura poblacional, llevaremos a cabo un test de barrera mediante código en R que utiliza el algoritmo de Monmonier en el paquete adegenet, utilizando una triangulación de Delaunay para identificar posibles limites asociados a barreras geográficas. Para esta parte necesitaremos dos archivos, el primero corresponde a un alineamiento de los marcadores nucleares y el segundo es un archivo con las coordenadas en donde los individuos fueron muestreados. El código de R lo pueden encontrar en [este link]()
+Para finalizar el análisis de estructura poblacional, llevaremos a cabo un test de barrera mediante código en R que utiliza el algoritmo de Monmonier en el paquete adegenet, utilizando una triangulación de Delaunay para identificar posibles limites asociados a barreras geográficas. Para esta parte necesitaremos dos archivos, el primero corresponde a un alineamiento de los marcadores nucleares y el segundo es un archivo con las coordenadas en donde los individuos fueron muestreados. El código de R lo pueden encontrar en [este link](https://github.com/malvaradol/CABBIO/tree/main/inputs_archivos/Estructura/5_Barrera). Guarden los inputs y el código en una sola carpeta para poder tener facilidad de accesso a los datos. El paso a paso del código será visualizado y explicado en clase.
+
+## ¿Qué se puede inferir acerca de los patrones evolutivos y biogeográficos del género _Psammolestes a partir de estos análisis?
 
 </p>
