@@ -75,9 +75,9 @@ Idealmente, tal como se mencionó antes, este proceso se debe repetir para cada 
 
 6. **Cálculo de estadísticos adicionales**: Existen otros estadísticos que fueron creados para detectar señales evolutivas y son mucho más sensibles que los estadísticos tradicionales que calculamos en el punto anterior. En este caso calcularemos la **D de Tajima**, el **R2 de Ramos-Onsins y Rozas** y la **F y la D de Fu y Li**, y los resultados obtenidos serán registrados en la tabla creada en el punto anterior.
 
-    - Para calcular la D de Tajima: **Analysis - Tajima's Test** y luego en el nuevo cuadro de dialogo seleccionar la especie a analizar. Repetir para las tres especies.
-    - Para calcular el R2 de Ramos-Onsins y Rozas: **Analysis - Population Size Changes** y seleccionar una especie en el menú desplegable. Repetir para las tres especies.
-    - Para calcular la F y la D de Fu y Li: **Analysis - Fu and Li's (and other) tests** y seleccionar una especie en el menú desplegable. Repetir para las tres especies.
+    - Para calcular la D de Tajima: **Analysis - Tajima's Test** y luego en el nuevo cuadro de dialogo seleccionar la especie a analizar. Repetir para las tres especies. Registrar los resultados bajo "Tajima's D".
+    - Para calcular el R2 de Ramos-Onsins y Rozas: **Analysis - Population Size Changes** y seleccionar una especie en el menú desplegable. Repetir para las tres especies. Registren el resultado al final de la sección "Observed values".
+    - Para calcular la F y la D de Fu y Li: **Analysis - Fu and Li's (and other) tests** y seleccionar una especie en el menú desplegable. Repetir para las tres especies. Registren los resultados que se encuentran al final del cuadro de los resultados bajo "Results from DnaSP v5".
 
 > Teniendo en cuenta la explicación teórica, ¿qué procesos evolutivos y/o demográficos podemos inferir a partir de los estadísticos cálculados con nuestros datos?
 
