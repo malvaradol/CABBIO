@@ -14,6 +14,8 @@ El estudio de la diversidad genetica es de gran importancia a la hora de estudia
 - Instalación de DnaSP (http://www.ub.edu/dnasp/), STRUCTURE (https://web.stanford.edu/group/pritchardlab/structure.html), CLUMPP (https://rosenberglab.stanford.edu/clumpp.html), distruct (https://rosenberglab.stanford.edu/distruct.html). Mi recomendación es instalar CLUMPP y distruct en una única carpeta para facilidad de manejo de archivos.
 - En R, instalar los siguientes paquetes: "ape" y "adegenet".
 
+## DESCARGAR LA CARPETA DE ARCHIVOS QUE USAREMOS DE ESTE [LINK](https://drive.google.com/drive/folders/1WL8xLjqcHMjbtUcGook-KFzkQf0LxFIM?usp=sharing). Hay varios links que están conectados al repositorio de GitHub pero su propósito es generar reproducibilidad en caso de que alguien quiera repetir los análisis a futuro, solo tiene que clonar el repositorio a su computador.
+
 ## Lecturas recomendadas para antes de la sesión
 
 Pueden encontrar las lecturas recomendadas en esta [carpeta](https://github.com/malvaradol/CABBIO/tree/main/lecturas_recomendadas)
