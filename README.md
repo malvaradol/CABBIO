@@ -11,8 +11,8 @@ El estudio de la diversidad genetica es de gran importancia a la hora de estudia
 
 - Lectura de documentos recomendados
 - Computador personal
-- Instalación de DnaSP (http://www.ub.edu/dnasp/), STRUCTURE (https://web.stanford.edu/group/pritchardlab/structure.html), CLUMPP (https://rosenberglab.stanford.edu/clumpp.html), distruct (https://rosenberglab.stanford.edu/distruct.html).
-- En R, instalar los siguientes paquetes: 
+- Instalación de DnaSP (http://www.ub.edu/dnasp/), STRUCTURE (https://web.stanford.edu/group/pritchardlab/structure.html), CLUMPP (https://rosenberglab.stanford.edu/clumpp.html), distruct (https://rosenberglab.stanford.edu/distruct.html). Mi recomendación es instalar CLUMPP y distruct en una única carpeta para facilidad de manejo de archivos.
+- En R, instalar los siguientes paquetes: "ape" y "adegenet".
 
 ## Lecturas recomendadas para antes de la sesión
 
@@ -107,6 +107,6 @@ La preparación del archivo input de STURCTURE es larga y tediosa, inicialmente 
 
 8. Una vez terminada la corrida, iremos a la carpeta del proyecto y comprimiremos la carpeta "Results" en formato .zip. Luego iremos a la página de [STRUCTURE harvester](https://taylor0.biology.ucla.edu/structureHarvester/), aqui cargaremos la carpeta comprimida y procederemos a analizar los resultados.
 
-9. Dentro del output de STRUCTURE harvester, la página nos ofrece una sección llamada Clumpp files de la cual descargaremos los archivos .indfile y .popfile correspondientes a K = 3. Posteriormente abriremos 
+9. Dentro del output de STRUCTURE harvester, la página nos ofrece una sección llamada Clumpp files de la cual descargaremos los archivos .indfile y .popfile correspondientes a K = 3, guardaremos una copia de cada uno en las carpetas de distruct y de CLUMPP. Posteriormente abriremos la terminal de comando de windows (cmd en Windows 10 o PowerShell en Windows 11) y usaremos comandos para movernos a la carpeta donde está instalado CLUMPP. Una vez en la carpeta de CLUMPP, es necesario crear un archivo de configuración con los parámetros necesarios para poder correr el programa, este archivo se encuentra en [inputs_archivos/2_CLUMPP]()
 
 </p>
