@@ -117,6 +117,6 @@ La preparación del archivo input de STURCTURE es larga y tediosa, inicialmente 
 
 Para finalizar el análisis de estructura poblacional, llevaremos a cabo un test de barrera mediante código en R que utiliza el algoritmo de Monmonier en el paquete adegenet, utilizando una triangulación de Delaunay para identificar posibles limites asociados a barreras geográficas. Para esta parte necesitaremos dos archivos, el primero corresponde a un alineamiento de los marcadores nucleares y el segundo es un archivo con las coordenadas en donde los individuos fueron muestreados. El código de R lo pueden encontrar en [este link](https://github.com/malvaradol/CABBIO/tree/main/inputs_archivos/Estructura/5_Barrera). Guarden los inputs y el código en una sola carpeta para poder tener facilidad de accesso a los datos. El paso a paso del código será visualizado y explicado en clase.
 
-## ¿Qué se puede inferir acerca de los patrones evolutivos y biogeográficos del género _Psammolestes a partir de estos análisis?
+## ¿Qué se puede inferir acerca de los patrones evolutivos y biogeográficos del género _Psammolestes_ a partir de estos análisis?
 
 </p>
