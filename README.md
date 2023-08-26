@@ -69,10 +69,18 @@ En esta primera parte, analizaremos los alineamientos de siete marcadores molecu
 
     - Se abrirá un nuevo cuadro de diálogo con los resultados, compare los resultados con la tabla 2 del artículo de _Psammolestes_. Los resultados de interés corresponden a la primera linea de cada párrafo, también es clave el número de sitios segregantes y el número de haplotipos.
 
-Idealmente, tal como se mencionó antes, este proceso se debe repetir para cada marcador y los resultados se deben registrar en una tabla como la tabla 2 del artículo de referencia, es un proceso largo y repetitivo pero posteriormente nos permitirá 
+Idealmente, tal como se mencionó antes, este proceso se debe repetir para cada marcador y los resultados se deben registrar en una tabla como la tabla 2 del artículo de referencia, es un proceso largo y repetitivo pero posteriormente nos permitirá inferir diferentes procesos evolutivos que puedan estar ocurriendo en nuestras poblaciones.
 
 ![Tabla 2.](https://raw.githubusercontent.com/malvaradol/CABBIO/main/imagenes/tabla_2.png)
 
+6. **Cálculo de estadísticos adicionales**: Existen otros estadísticos que fueron creados para detectar señales evolutivas y son mucho más sensibles que los estadísticos tradicionales que calculamos en el punto anterior. En este caso calcularemos la **D de Tajima**, el **R2 de Ramos-Onsins y Rozas** y la **F y la D de Fu y Li**, y los resultados obtenidos serán registrados en la tabla creada en el punto anterior.
+
+    - Para calcular la D de Tajima: **Analysis - Tajima's Test** y luego en el nuevo cuadro de dialogo seleccionar la especie a analizar. Repetir para las tres especies.
+    - Para calcular el R2 de Ramos-Onsins y Rozas: **Analysis - Population Size Changes** y seleccionar una especie en el menú desplegable. Repetir para las tres especies.
+    - Para calcular la F y la D de Fu y Li: **Analysis - Fu and Li's (and other) tests** y seleccionar una especie en el menú desplegable. Repetir para las tres especies.
+
 <p>
 
+### Análisis de estructura genética
 
+Ahora procederemos a realizar los análisis de estructura genética
