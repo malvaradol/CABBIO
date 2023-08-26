@@ -63,7 +63,7 @@ En esta primera parte, analizaremos los alineamientos de siete marcadores molecu
 
     - Una vez definan los tres sets de especies, el siguiente paso será exportar el archivo en formato Nexus. Este formato ya tendrá especificado las particiones que definimos para que en caso de que sea necesario realizar alguna corrección, no se deba repetir el proceso completamente. Para esto: **File - Save / Export Data as - NEXUS file format**.
 
-5. **Calculos de los estadísticos de diversidad genética**: El siguiente paso es entonces obtener los primeros cálculos de diversidad genética.
+5. **Calculos de los estadísticos de diversidad genética**: El siguiente paso es obtener los primeros cálculos de diversidad genética.
 
     - Para esto, carguen el archivo en formato NEXUS que guardamos en el númeral anterior y vayan a: **Analysis - DNA Polymorphism**. Se abrirá un nuevo cuadro de dialogo con diferentes opciones, por lo que primero se debe seleccionar el dataset al cual se le realizarán los cálculos, para esto seleccione cualquiera de las tres especies del menú desplegable. Luego, en la seccion "Options" seleccione "Compute Variance of Pi" y "Compute Pi", finalmente presione OK.
 
@@ -119,6 +119,8 @@ La preparación del archivo input de STURCTURE es larga y tediosa, inicialmente 
 
 Para finalizar el análisis de estructura poblacional, llevaremos a cabo un test de barrera mediante código en R que utiliza el algoritmo de Monmonier en el paquete adegenet, utilizando una triangulación de Delaunay para identificar posibles limites asociados a barreras geográficas. Para esta parte necesitaremos dos archivos, el primero corresponde a un alineamiento de los marcadores nucleares y el segundo es un archivo con las coordenadas en donde los individuos fueron muestreados. El código de R lo pueden encontrar en [este link](https://github.com/malvaradol/CABBIO/tree/main/inputs_archivos/Estructura/5_Barrera). Guarden los inputs y el código en una sola carpeta para poder tener facilidad de accesso a los datos. El paso a paso del código será visualizado y explicado en clase.
 
-## ¿Qué se puede inferir acerca de los patrones evolutivos y biogeográficos del género _Psammolestes_ a partir de estos análisis?
+> Según los resultados del test de barrera, ¿es posible que exista alguna barrera geográfica que limite el flujo genético entre especies?¿cuál sería la barrera en este caso?
+
+## ¿Qué se puede concluir acerca de los patrones evolutivos y biogeográficos del género _Psammolestes_ a partir de estos análisis?
 
 </p>
