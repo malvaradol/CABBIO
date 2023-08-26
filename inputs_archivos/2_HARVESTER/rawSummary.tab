@@ -1,0 +1,45 @@
+# This document produced by structureHarvester core version vA.2 July 2014
+# http://www.structureharvester.com/
+# https://github.com/dentearl/structureHarvester/
+# http://taylor0.biology.ucla.edu/structureHarvester
+# http://users.soe.ucsc.edu/~dearl/software/structureHarvester
+# Written by Dent Earl, dearl (a) soe ucsc edu.
+# CITATION:
+# Earl, Dent A. and vonHoldt, Bridgett M. (2012)
+# STRUCTURE HARVESTER: a website and program for visualizing
+# STRUCTURE output and implementing the Evanno method.
+# Conservation Genetics Resources 4(2) 359-361. DOI: 10.1007/s12686-011-9548-7
+# Core version: vA.2 July 2014
+# File generated at 2023-Aug-25 20:47:50 PDT
+#
+
+##########
+# K	Reps	mean est. LnP(Data)	stdev est. LnP(Data)
+2	1	-1278.100000	0.000000
+3	1	-1057.200000	0.000000
+4	1	-1119.100000	0.000000
+5	1	-1134.400000	0.000000
+6	1	-1162.500000	0.000000
+7	1	-1149.900000	0.000000
+8	1	-1165.100000	0.000000
+9	1	-1156.000000	0.000000
+
+##########
+# File name	Run #	K	Est. Ln prob. of data	Mean value of Ln likelihood	Variance of Ln likelihood
+Resultsparams_psammo_cabbio_run_1_f	1	2	-1278.1	-1193.1	170.0
+Resultsparams_psammo_cabbio_run_2_f	2	3	-1057.2	-960.1	194.2
+Resultsparams_psammo_cabbio_run_3_f	3	4	-1119.1	-1023.5	191.2
+Resultsparams_psammo_cabbio_run_4_f	4	5	-1134.4	-1025.4	217.8
+Resultsparams_psammo_cabbio_run_5_f	5	6	-1162.5	-1025.6	273.7
+Resultsparams_psammo_cabbio_run_6_f	6	7	-1149.9	-1037.6	224.5
+Resultsparams_psammo_cabbio_run_7_f	7	8	-1165.1	-1049.5	231.2
+Resultsparams_psammo_cabbio_run_8_f	8	9	-1156.0	-1053.8	204.5
+
+Software written by Dent Earl while at EEB Dept, UCLA, BME Dept UCSC
+dearl (a) soe ucsc edu
+CITATION:
+Earl, Dent A. and vonHoldt, Bridgett M. (2012)
+STRUCTURE HARVESTER: a website and program for visualizing
+STRUCTURE output and implementing the Evanno method.
+# Conservation Genetics Resources 4(2) 359-361. DOI: 10.1007/s12686-011-9548-7
+Core version: vA.2 July 2014

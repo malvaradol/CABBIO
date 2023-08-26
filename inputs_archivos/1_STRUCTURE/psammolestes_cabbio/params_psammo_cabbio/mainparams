@@ -1,5 +1,5 @@
-#define OUTFILE C:\Users\malva\OneDrive - Universidad del rosario\Escritorio\Uni\Semestre IV\CABBIO\inputs_archivos\STRUCTURE\psammolestes_cabbio\params_psammo_cabbio\Results\params_psammo_cabbio_run_9
-#define INFILE C:\Users\malva\OneDrive - Universidad del rosario\Escritorio\Uni\Semestre IV\CABBIO\inputs_archivos\STRUCTURE\psammolestes_cabbio\project_data
+#define OUTFILE C:\Users\malva\OneDrive - Universidad del rosario\Escritorio\Uni\Semestre IV\CABBIO\inputs_archivos\1_STRUCTURE\psammolestes_cabbio\params_psammo_cabbio\Results\params_psammo_cabbio_run_1
+#define INFILE C:\Users\malva\OneDrive - Universidad del rosario\Escritorio\Uni\Semestre IV\CABBIO\inputs_archivos\1_STRUCTURE\psammolestes_cabbio\project_data
 #define NUMINDS 92
 #define NUMLOCI 7
 #define LABEL 1 
@@ -16,7 +16,7 @@
 #define EXTRACOLS 0
 #define MISSING -9
 #define PLOIDY 2
-#define MAXPOPS 10
+#define MAXPOPS 1
 #define BURNIN 100000
 #define NUMREPS 100000
 
