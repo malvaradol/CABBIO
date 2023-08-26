@@ -79,8 +79,34 @@ Idealmente, tal como se mencionó antes, este proceso se debe repetir para cada 
     - Para calcular el R2 de Ramos-Onsins y Rozas: **Analysis - Population Size Changes** y seleccionar una especie en el menú desplegable. Repetir para las tres especies.
     - Para calcular la F y la D de Fu y Li: **Analysis - Fu and Li's (and other) tests** y seleccionar una especie en el menú desplegable. Repetir para las tres especies.
 
-<p>
+</p>
 
 ### Análisis de estructura genética
 
-Ahora procederemos a realizar los análisis de estructura genética
+Ahora procederemos a realizar los análisis de estructura genética, para esto llevaremos a cabo dos análisis: un análisis de estructura utilizando el algoritmo STRUCTURE y otro análisis utilizando un test de barrera en R.
+
+#### STRUCTURE
+
+<p align = "justify">
+
+La preparación del archivo input de STURCTURE es larga y tediosa, inicialmente se debe concatenar los siete marcadores asegurandose que en los marcadores donde una secuencia no tenga información, esta esté completa con gaps (- o N). Posteriormente, se debe "phasear" el archivo como en el punto 2 de los análisis de diversidad genética, asegurandose de eliminar las secuencias duplicadas sin ambigüedades, y posteriormente transformando el archivo de formato fasta a formato STRUCTURE utilizando la herramienta [PGDSpider](http://www.cmpg.unibe.ch/software/PGDSpider/). Por cuestiones de tiempo, el archivo final está en la carpeta [archivos_curso]() y lo siguiente será correr STRUCTURE.
+
+1. El primer paso entonces será abrir STRUCTURE y crear un nuevo proyecto en **File - New Project** y asignar un nuevo nombre para el proyecto (e.g. structure_psammolestes), seleccionar un directorio donde se almacenarán nuestros resultados, y finalmente seleccionar el input para el programa.
+
+2. El segundo paso será introducir el número de individuos que en este caso es 92, la ploidia de los datos (diploides), el número de loci (7) y el valor a los datos faltantes, que en este caso es -9.
+
+3. Luego, debemos seleccionar los indicadores que incluimos en nuestro input. Las primeras tres columnas de dicho archivo contienen valores especiales que reflejan la especie (1, 2 y 3), si se usará la secuencia o no (0 o 1, en este caso todas tienen 1) y el lugar de recolección (número a discreción de cada uno). Es importante mencionar que el cuadro de dialogo titulado "Step 3 of 4" se debe saltar ya que no incluimos ningun tipo de información adicional indicada en ese cuadro, por lo que saltaremos al "Step 4 of 4". En este cuadro marcaremos las 4 primeras opciones **Individual ID - Putative population... - USEPOPINFO... - Sampling location information** y presionaremos finalizar. Esto le dirá al programa el formato de nuestros datos.
+
+4. Una vez identificado el formato de los datos, crearemos un nuevo archivo de parametros que el programa tendrá en cuenta para la corrida. Para esto seleccionaremos **Parameter Set - New...**. En el primer cuadro de dialogo, el valor del burnin y del número de repeticiones después del burnin dependerá de la cantidad de datos que tengamos, entre más datos mayor tendrá que ser el valor del burnin y de las repeticiones posteriores para que el modelo pueda realizar una estimación más certera. Inicialmente le pondremos 100.000 a ambos valores.
+
+5. Nos moveremos a la pestaña de "Ancestry model" y seleccionaremos la casilla **Use sampling locations as prior (LOCPRIOR)**.
+
+6. Finalmente seleccionaremos la pestaña **"Advanced"** y marcaremos las casillas de **"Update allele frequencies using only individuals..."** y la casilla **"Initialize at POPINFO"** dejando el valor de la frecuencia de metropolis como el predeterminado. Finalmente presionamos OK y nombramos el set de parametros que se guardará dentro de la carpeta del proyecto.
+
+7. Una vez configurado el archivo de parametros y guardado el proyecto, ya se puede poner a correr desde **"Project - Start a Job"**. Se abrirá una nueva pestaña donde indicaremos el proyecto a correr y le daremos un rango de números de K que el modelo evaluará para encontrar el K que mejor explique la estructura genética. En nuestro caso correremos el programa de 2 a 10 K. El tiempo de corrida depende del número de burnin y de corridas posteriores que le especificamos en los parámetros.
+
+8. Una vez terminada la corrida, iremos a la carpeta del proyecto y comprimiremos la carpeta "Results" en formato .zip. Luego iremos a la página de [STRUCTURE harvester](https://taylor0.biology.ucla.edu/structureHarvester/), aqui cargaremos la carpeta comprimida y procederemos a analizar los resultados.
+
+9. Dentro del output de STRUCTURE harvester, la página nos ofrece una sección llamada Clumpp files de la cual descargaremos los archivos .indfile y .popfile correspondientes a K = 3. Posteriormente abriremos 
+
+</p>
