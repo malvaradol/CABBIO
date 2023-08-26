@@ -1,0 +1,370 @@
+
+
+----------------------------------------------------
+STRUCTURE by Pritchard, Stephens and Donnelly (2000)
+     and Falush, Stephens and Pritchard (2003)
+       Code by Pritchard, Falush and Hubisz
+             Version 2.3.4 (Jul 2012)
+----------------------------------------------------
+
+
+
+Command line arguments:   bin\structure -m C:\Users\malva\OneDrive - Universidad del rosario\Escritorio\Uni\Semestre IV\CABBIO\inputs_archivos\1_STRUCTURE\psammolestes_cabbio\params_psammo_cabbio\mainparams -e C:\Users\malva\OneDrive - Universidad del rosario\Escritorio\Uni\Semestre IV\CABBIO\inputs_archivos\1_STRUCTURE\psammolestes_cabbio\params_psammo_cabbio\extraparams 
+Input File:    C:\Users\malva\OneDrive - Universidad del rosario\Escritorio\Uni\Semestre IV\CABBIO\inputs_archivos\1_STRUCTURE\psammolestes_cabbio\project_data
+
+Run parameters:
+   92 individuals
+   7 loci
+   2 populations assumed
+   100000 Burn-in period
+   100000 Reps
+STARTATPOPINFO turned on
+LOCPRIOR model used
+
+
+--------------------------------------------
+Proportion of membership of each pre-defined
+ population in each of the 2 clusters
+
+Given    Inferred Clusters       Number of
+ Pop       1      2             Individuals
+
+  1:     0.011  0.989              38
+  2:     0.995  0.005              24
+  3:     0.996  0.004              30
+--------------------------------------------
+
+Allele-freq. divergence among pops (Net nucleotide distance),
+computed using point estimates of P.
+
+      1       2      
+ 1      -    0.2044  
+ 2   0.2044     -    
+
+Average distances (expected heterozygosity) between individuals in same cluster:
+cluster  1  : 0.8894 
+cluster  2  : 0.6486 
+
+--------------------------------------------
+Estimated Ln Prob of Data   = -1202.7
+Mean value of ln likelihood = -1116.7
+Variance of ln likelihood   = 172.0
+Mean value of alpha         = 1.6706
+
+Mean value of alpha_local for each location:
+	location  1:  0.0117  5.6254
+	location  2:  1.3475  0.0177
+	location  3:  6.3444  0.0304
+	location  4:  0.0239  0.3407
+	location  5:  0.9424  0.0268
+	location  6:  2.5909  0.0349
+	location  7:  0.4705  0.0807
+	location  8:  0.2065  3.7204
+	location  9:  0.1131  2.1820
+	location 10:  0.0531  1.9896
+	location 11:  0.1480  3.5615
+	location 12:  0.1103  0.8872
+
+Mean value of Fst_1         = 0.0398
+Mean value of Fst_2         = 0.1820
+Allele frequencies updated using individuals with POPFLAG=1 ONLY.
+
+Mean value of r = 0.1863
+
+Inferred ancestry of individuals:
+        Label (%Miss) Pop:  Inferred clusters
+  1 224_Part_Co   (78)    1 :  0.001 0.999 
+  2 225_Part_Co   (64)    1 :  0.001 0.999 
+  3 226_Part_Co   (64)    1 :  0.002 0.998 
+  4 227_Part_Co   (57)    1 :  0.002 0.998 
+  5 228_Part_Co   (78)    1 :  0.002 0.998 
+  6 229_Part_Co   (71)    1 :  0.001 0.999 
+  7 230_Part_Co   (57)    1 :  0.001 0.999 
+  8 231_Part_Co   (78)    1 :  0.002 0.998 
+  9 232_Part_Co   (50)    1 :  0.001 0.999 
+ 10 233_Part_Co   (50)    1 :  0.002 0.998 
+ 11 234_Part_Co   (50)    1 :  0.002 0.998 
+ 12 514_Part_Ve   (50)    1 :  0.005 0.995 
+ 13 515_Part_Ve   (35)    1 :  0.004 0.996 
+ 14 516_Part_Ve   (57)    1 :  0.007 0.993 
+ 15 517_Part_Ve   (71)    1 :  0.021 0.979 
+ 16 689_Part_Ve   (71)    1 :  0.006 0.994 
+ 17 690_Part_Ve   (50)    1 :  0.006 0.994 
+ 18 691_Part_Ve   (50)    1 :  0.014 0.986 
+ 19 692_Part_Ve   (85)    1 :  0.010 0.990 
+ 20 693_Part_Ve   (50)    1 :  0.028 0.972 
+ 21 705_Part_Ve   (42)    1 :  0.008 0.992 
+ 22 706_Part_Ve   (78)    1 :  0.007 0.993 
+ 23 707_Part_Ve   (57)    1 :  0.012 0.988 
+ 24 709_Part_Ve   (50)    1 :  0.004 0.996 
+ 25 712_Part_Ve   (57)    1 :  0.007 0.993 
+ 26 727_Part_Co   (71)    1 :  0.020 0.980 
+ 27 728_Part_Co   (64)    1 :  0.024 0.976 
+ 28 729_Part_Co   (71)    1 :  0.022 0.978 
+ 29 731_Part_Co   (64)    1 :  0.037 0.963 
+ 30 732_Part_Co   (57)    1 :  0.013 0.987 
+ 31 733_Part_Co   (57)    1 :  0.018 0.982 
+ 32 737_Part_Co   (35)    1 :  0.009 0.991 
+ 33 738_Part_Co   (42)    1 :  0.005 0.995 
+ 34 742_Part_Co   (78)    1 :  0.010 0.990 
+ 35 759_Part_Co   (35)    1 :  0.017 0.983 
+ 36 760_Part_Co   (42)    1 :  0.022 0.978 
+ 37 761_Part_Co   (64)    1 :  0.030 0.970 
+ 38 765_Part_Co   (64)    1 :  0.027 0.973 
+ 39 499_Pter_Br   (57)    2 :  0.997 0.003 
+ 40 500_Pter_Br   (85)    2 :  0.994 0.006 
+ 41 502_Pter_Br   (50)    2 :  0.997 0.003 
+ 42 504_Pter_Br   (71)    2 :  0.997 0.003 
+ 43 505_Pter_Br   (92)    2 :  0.992 0.008 
+ 44 506_Pter_Br   (57)    2 :  0.997 0.003 
+ 45 507_Pter_Br   (78)    2 :  0.996 0.004 
+ 46 508_Pter_Br   (92)    2 :  0.992 0.008 
+ 47 613_Pter_Br   (57)    2 :  0.997 0.003 
+ 48 614_Pter_Br   (57)    2 :  0.997 0.003 
+ 49 615_Pter_Br   (64)    2 :  0.997 0.003 
+ 50 616_Pter_Br   (57)    2 :  0.997 0.003 
+ 51 617_Pter_Br   (71)    2 :  0.996 0.004 
+ 52 623_Pter_Br   (50)    2 :  0.996 0.004 
+ 53 625_Pter_Br   (57)    2 :  0.996 0.004 
+ 54 630_Pter_Br   (64)    2 :  0.996 0.004 
+ 55 631_Pter_Br   (64)    2 :  0.995 0.005 
+ 56 632_Pter_Br   (64)    2 :  0.996 0.004 
+ 57 633_Pter_Br   (50)    2 :  0.996 0.004 
+ 58 634_Pter_Br   (57)    2 :  0.995 0.005 
+ 59 635_Pter_Br   (50)    2 :  0.996 0.004 
+ 60 636_Pter_Br   (42)    2 :  0.996 0.004 
+ 61 637_Pter_Br   (78)    2 :  0.993 0.007 
+ 62 703_Pter_Br   (57)    2 :  0.987 0.013 
+ 63 509_Pcor_Br   (71)    3 :  0.987 0.013 
+ 64 510_Pcor_Br   (42)    3 :  0.998 0.002 
+ 65 511_Pcor_Br   (50)    3 :  0.998 0.002 
+ 66 512_Pcor_Br   (28)    3 :  0.998 0.002 
+ 67 513_Pcor_Br   (92)    3 :  0.996 0.004 
+ 68 647_Pcor_Br   (64)    3 :  0.997 0.003 
+ 69 648_Pcor_Br   (21)    3 :  0.998 0.002 
+ 70 649_Pcor_Br   (42)    3 :  0.997 0.003 
+ 71 650_Pcor_Br   (71)    3 :  0.997 0.003 
+ 72 652_Pcor_Br   (50)    3 :  0.998 0.002 
+ 73 654_Pcor_Br   (57)    3 :  0.997 0.003 
+ 74 655_Pcor_Br   (42)    3 :  0.998 0.002 
+ 75 658_Pcor_Br   (57)    3 :  0.997 0.003 
+ 76 660_Pcor_Br   (35)    3 :  0.998 0.002 
+ 77 662_Pcor_Br   (57)    3 :  0.997 0.003 
+ 78 663_Pcor_Br   (57)    3 :  0.997 0.003 
+ 79 664_Pcor_Br   (57)    3 :  0.997 0.003 
+ 80 665_Pcor_Br   (71)    3 :  0.997 0.003 
+ 81 666_Pcor_Br   (64)    3 :  0.997 0.003 
+ 82 667_Pcor_Br   (42)    3 :  0.998 0.002 
+ 83 669_Pcor_Br   (28)    3 :  0.998 0.002 
+ 84 670_Pcor_Br   (57)    3 :  0.997 0.003 
+ 85 671_Pcor_Br   (42)    3 :  0.998 0.002 
+ 86 672_Pcor_Br   (28)    3 :  0.998 0.002 
+ 87 679_Pcor_Br   (57)    3 :  0.997 0.003 
+ 88 680_Pcor_Br   (42)    3 :  0.998 0.002 
+ 89 681_Pcor_Br   (92)    3 :  0.996 0.004 
+ 90 682_Pcor_Br   (42)    3 :  0.998 0.002 
+ 91 683_Pcor_Br   (71)    3 :  0.997 0.003 
+ 92 688_Part_Ve   (42)    3 :  0.953 0.047 
+
+
+Estimated Allele Frequencies in each cluster
+First column gives estimated ancestral frequencies
+
+
+Locus 1 : 
+25 alleles
+78.8% missing data
+  21   (0.038) 0.018 0.071 
+  22   (0.036) 0.017 0.070 
+  23   (0.036) 0.018 0.070 
+  24   (0.040) 0.019 0.071 
+  25   (0.038) 0.018 0.070 
+  26   (0.036) 0.017 0.070 
+  20   (0.036) 0.018 0.069 
+  16   (0.036) 0.017 0.070 
+  17   (0.037) 0.018 0.070 
+  18   (0.038) 0.019 0.070 
+  13   (0.036) 0.017 0.070 
+  14   (0.037) 0.018 0.070 
+   4   (0.037) 0.037 0.010 
+   5   (0.038) 0.037 0.011 
+   6   (0.034) 0.035 0.010 
+   7   (0.037) 0.037 0.011 
+   8   (0.037) 0.037 0.011 
+  12   (0.038) 0.037 0.011 
+   1   (0.047) 0.061 0.013 
+   2   (0.108) 0.321 0.030 
+   3   (0.036) 0.037 0.010 
+   9   (0.036) 0.037 0.010 
+  10   (0.038) 0.037 0.010 
+  11   (0.035) 0.036 0.010 
+  15   (0.034) 0.035 0.011 
+
+Locus 2 : 
+13 alleles
+70.1% missing data
+   1   (0.097) 0.053 0.714 
+   2   (0.058) 0.031 0.033 
+   3   (0.056) 0.030 0.033 
+  11   (0.064) 0.035 0.059 
+  12   (0.064) 0.035 0.059 
+  13   (0.058) 0.033 0.031 
+   5   (0.086) 0.112 0.010 
+   4   (0.117) 0.172 0.014 
+   6   (0.059) 0.054 0.007 
+   7   (0.168) 0.287 0.020 
+   8   (0.058) 0.053 0.007 
+   9   (0.056) 0.052 0.007 
+  10   (0.058) 0.053 0.007 
+
+Locus 3 : 
+34 alleles
+60.3% missing data
+   1   (0.032) 0.010 0.537 
+   2   (0.025) 0.008 0.046 
+  29   (0.026) 0.009 0.045 
+  30   (0.024) 0.008 0.045 
+  31   (0.025) 0.009 0.044 
+  32   (0.028) 0.010 0.045 
+  33   (0.026) 0.009 0.044 
+  34   (0.025) 0.009 0.044 
+   3   (0.074) 0.202 0.014 
+   4   (0.024) 0.021 0.005 
+   7   (0.027) 0.034 0.005 
+   8   (0.025) 0.021 0.005 
+   9   (0.025) 0.021 0.005 
+  10   (0.044) 0.065 0.008 
+  11   (0.032) 0.036 0.006 
+  12   (0.027) 0.021 0.005 
+  13   (0.027) 0.022 0.005 
+  14   (0.041) 0.077 0.008 
+   5   (0.024) 0.020 0.004 
+   6   (0.028) 0.022 0.005 
+  15   (0.027) 0.021 0.005 
+  16   (0.024) 0.020 0.005 
+  17   (0.029) 0.022 0.006 
+  18   (0.028) 0.022 0.005 
+  19   (0.031) 0.036 0.006 
+  20   (0.033) 0.036 0.006 
+  21   (0.024) 0.020 0.005 
+  22   (0.034) 0.049 0.006 
+  23   (0.027) 0.021 0.005 
+  24   (0.030) 0.035 0.006 
+  25   (0.024) 0.021 0.005 
+  26   (0.026) 0.021 0.005 
+  27   (0.029) 0.022 0.005 
+  28   (0.024) 0.021 0.005 
+
+Locus 4 : 
+26 alleles
+53.3% missing data
+   1   (0.058) 0.033 0.492 
+   2   (0.032) 0.011 0.026 
+   3   (0.031) 0.011 0.026 
+   4   (0.036) 0.013 0.119 
+   5   (0.034) 0.012 0.027 
+  12   (0.031) 0.011 0.025 
+  20   (0.032) 0.012 0.025 
+  21   (0.030) 0.011 0.025 
+  22   (0.032) 0.011 0.049 
+  23   (0.031) 0.011 0.025 
+  24   (0.035) 0.013 0.049 
+  25   (0.031) 0.011 0.025 
+  26   (0.032) 0.012 0.025 
+   6   (0.086) 0.210 0.009 
+  13   (0.038) 0.041 0.004 
+  17   (0.071) 0.149 0.008 
+   9   (0.070) 0.176 0.007 
+   8   (0.029) 0.024 0.003 
+  10   (0.031) 0.025 0.003 
+  11   (0.032) 0.025 0.003 
+  14   (0.032) 0.025 0.003 
+  15   (0.031) 0.025 0.003 
+  16   (0.037) 0.041 0.004 
+  18   (0.038) 0.041 0.004 
+  19   (0.031) 0.024 0.003 
+   7   (0.031) 0.024 0.003 
+
+Locus 5 : 
+27 alleles
+43.5% missing data
+   1   (0.036) 0.010 0.246 
+   2   (0.031) 0.009 0.025 
+   3   (0.037) 0.011 0.378 
+   4   (0.031) 0.009 0.025 
+   5   (0.031) 0.009 0.091 
+   6   (0.031) 0.009 0.025 
+  23   (0.027) 0.008 0.024 
+  24   (0.031) 0.009 0.025 
+  25   (0.028) 0.008 0.046 
+  26   (0.032) 0.010 0.024 
+  27   (0.029) 0.009 0.025 
+   7   (0.032) 0.020 0.003 
+   8   (0.037) 0.033 0.004 
+   9   (0.030) 0.020 0.003 
+  10   (0.069) 0.145 0.007 
+  14   (0.028) 0.019 0.003 
+  11   (0.091) 0.264 0.009 
+  15   (0.028) 0.019 0.003 
+  12   (0.057) 0.107 0.006 
+  13   (0.056) 0.095 0.006 
+  16   (0.029) 0.020 0.003 
+  17   (0.043) 0.046 0.004 
+  18   (0.034) 0.032 0.003 
+  19   (0.032) 0.020 0.003 
+  20   (0.033) 0.020 0.003 
+  21   (0.029) 0.019 0.003 
+  22   (0.030) 0.020 0.003 
+
+Locus 6 : 
+20 alleles
+48.4% missing data
+   1   (0.048) 0.014 0.795 
+   2   (0.039) 0.012 0.054 
+  19   (0.036) 0.011 0.028 
+  20   (0.035) 0.011 0.027 
+   3   (0.100) 0.173 0.012 
+   4   (0.079) 0.119 0.009 
+   5   (0.034) 0.022 0.004 
+   6   (0.036) 0.022 0.004 
+   7   (0.052) 0.051 0.006 
+  11   (0.051) 0.051 0.006 
+  12   (0.034) 0.022 0.004 
+  13   (0.036) 0.023 0.004 
+   8   (0.060) 0.065 0.007 
+   9   (0.076) 0.106 0.009 
+  10   (0.097) 0.172 0.011 
+  14   (0.043) 0.037 0.005 
+  15   (0.037) 0.023 0.004 
+  16   (0.034) 0.022 0.004 
+  17   (0.036) 0.022 0.004 
+  18   (0.036) 0.023 0.004 
+
+Locus 7 : 
+21 alleles
+54.3% missing data
+   1   (0.052) 0.017 0.655 
+  17   (0.036) 0.012 0.029 
+  18   (0.043) 0.014 0.134 
+  20   (0.035) 0.012 0.030 
+  19   (0.037) 0.013 0.030 
+  21   (0.034) 0.012 0.029 
+   2   (0.104) 0.208 0.013 
+   3   (0.036) 0.025 0.004 
+   6   (0.043) 0.041 0.005 
+   7   (0.046) 0.042 0.006 
+   8   (0.036) 0.025 0.004 
+   4   (0.088) 0.149 0.011 
+   5   (0.095) 0.165 0.011 
+   9   (0.041) 0.040 0.005 
+  10   (0.034) 0.025 0.004 
+  11   (0.038) 0.026 0.005 
+  12   (0.035) 0.025 0.004 
+  13   (0.051) 0.057 0.006 
+  14   (0.036) 0.025 0.004 
+  15   (0.043) 0.041 0.005 
+  16   (0.037) 0.025 0.005 
+
+Values of parameters used in structure:
+DATAFILE=C:\Users\malva\OneDrive - Universidad del rosario\Escritorio\Uni\Semestre IV\CABBIO\inputs_archivos\1_STRUCTURE\psammolestes_cabbio\project_data,	OUTFILE=C:\Users\malva\OneDrive - Universidad del rosario\Escritorio\Uni\Semestre IV\CABBIO\inputs_archivos\1_STRUCTURE\psammolestes_cabbio\params_psammo_cabbio\Results\params_psammo_cabbio_run_9,	NUMINDS=92,	NUMLOCI=7,	MISSING=-9,	LABEL=1,	POPDATA=1,	POPFLAG=1,	PHENOTYPE=0,	EXTRACOLS=0,	MAXPOPS=2,	BURNIN=100000,	NUMREPS=100000,	USEPOPINFO=0,	INFERALPHA=1,	INFERLAMBDA=0,	POPSPECIFICLAMBDA=0,	POPALPHAS=0,	COMPUTEPROB=1,	NOADMIX=0,	ADMBURNIN=2500,	UPDATEFREQ=1,	PRINTLIKES=0,	INTERMEDSAVE=0,	PRINTKLD=0,	PRINTNET=0,	PRINTLAMBDA=0,	ANCESTDIST=0,	NUMBOXES=1000,	ANCESTPINT=0.90000,	GENSBACK=2,	MIGRPRIOR=0.05000,	PRINTQHAT=0,	PRINTQSUM=0,	ALPHA=1.0000,	FREQSCORR=1,	FPRIORMEAN=0.0100,	FPRIORSD=0.0500,	ONEFST=0,	LAMBDA=1.0000,	UNIFPRIORALPHA=1,	ALPHAMAX=10.0000,	ALPHAPRIORA=1.0000,	ALPHAPRIORB=2.0000,	ALPHAPROPSD=0.0250,	STARTATPOPINFO=1,	RANDOMIZE=1,	LINKAGE=0,	METROFREQ=10,	REPORTHITRATE=0,	MARKOVPHASE=-1,	PHASED=0,	PLOIDY=2,	PHASEINFO=0	LOCPRIOR=1, 	LOCPRIORINIT=1.000000, 	LOCDATA=1, 	LOCISPOP=0, 	LOCPRIORSTEP=0.100000, 	MAXLOCPRIOR=20.000000, 	SEED=1693028911,	
+[STRAT parameters]:    NUMSIMSTATS=1000,	PHENOTYPECOL=-9,	POOLFREQ=10,	LOCUSxONLY=0,	EMERROR=0.00100,	MISSINGPHENO=-9,	

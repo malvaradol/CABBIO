@@ -1,0 +1,352 @@
+
+
+----------------------------------------------------
+STRUCTURE by Pritchard, Stephens and Donnelly (2000)
+     and Falush, Stephens and Pritchard (2003)
+       Code by Pritchard, Falush and Hubisz
+             Version 2.3.4 (Jul 2012)
+----------------------------------------------------
+
+
+
+Command line arguments:   bin\structure -m C:\Users\malva\OneDrive - Universidad del rosario\Escritorio\Uni\Semestre IV\CABBIO\inputs_archivos\1_STRUCTURE\psammolestes_cabbio\params_psammo_cabbio\mainparams -e C:\Users\malva\OneDrive - Universidad del rosario\Escritorio\Uni\Semestre IV\CABBIO\inputs_archivos\1_STRUCTURE\psammolestes_cabbio\params_psammo_cabbio\extraparams 
+Input File:    C:\Users\malva\OneDrive - Universidad del rosario\Escritorio\Uni\Semestre IV\CABBIO\inputs_archivos\1_STRUCTURE\psammolestes_cabbio\project_data
+
+Run parameters:
+   92 individuals
+   7 loci
+   1 populations assumed
+   100000 Burn-in period
+   100000 Reps
+STARTATPOPINFO turned on
+LOCPRIOR model used
+
+
+--------------------------------------------
+Proportion of membership of each pre-defined
+ population in each of the 1 clusters
+
+Given    Inferred Clusters       Number of
+ Pop       1                    Individuals
+
+  1:     1.000                     38
+  2:     1.000                     24
+  3:     1.000                     30
+--------------------------------------------
+
+Allele-freq. divergence among pops (Net nucleotide distance),
+computed using point estimates of P.
+
+      1      
+ 1      -    
+
+Average distances (expected heterozygosity) between individuals in same cluster:
+cluster  1  : 0.8924 
+
+--------------------------------------------
+Estimated Ln Prob of Data   = -1427.3
+Mean value of ln likelihood = -1398.6
+Variance of ln likelihood   = 57.5
+
+Mean value of Fst_1         = 0.0003
+Allele frequencies updated using individuals with POPFLAG=1 ONLY.
+
+Mean value of r = 6.8734
+
+Inferred ancestry of individuals:
+        Label (%Miss) Pop:  Inferred clusters
+  1 224_Part_Co   (78)    1 :  1.000 
+  2 225_Part_Co   (64)    1 :  1.000 
+  3 226_Part_Co   (64)    1 :  1.000 
+  4 227_Part_Co   (57)    1 :  1.000 
+  5 228_Part_Co   (78)    1 :  1.000 
+  6 229_Part_Co   (71)    1 :  1.000 
+  7 230_Part_Co   (57)    1 :  1.000 
+  8 231_Part_Co   (78)    1 :  1.000 
+  9 232_Part_Co   (50)    1 :  1.000 
+ 10 233_Part_Co   (50)    1 :  1.000 
+ 11 234_Part_Co   (50)    1 :  1.000 
+ 12 514_Part_Ve   (50)    1 :  1.000 
+ 13 515_Part_Ve   (35)    1 :  1.000 
+ 14 516_Part_Ve   (57)    1 :  1.000 
+ 15 517_Part_Ve   (71)    1 :  1.000 
+ 16 689_Part_Ve   (71)    1 :  1.000 
+ 17 690_Part_Ve   (50)    1 :  1.000 
+ 18 691_Part_Ve   (50)    1 :  1.000 
+ 19 692_Part_Ve   (85)    1 :  1.000 
+ 20 693_Part_Ve   (50)    1 :  1.000 
+ 21 705_Part_Ve   (42)    1 :  1.000 
+ 22 706_Part_Ve   (78)    1 :  1.000 
+ 23 707_Part_Ve   (57)    1 :  1.000 
+ 24 709_Part_Ve   (50)    1 :  1.000 
+ 25 712_Part_Ve   (57)    1 :  1.000 
+ 26 727_Part_Co   (71)    1 :  1.000 
+ 27 728_Part_Co   (64)    1 :  1.000 
+ 28 729_Part_Co   (71)    1 :  1.000 
+ 29 731_Part_Co   (64)    1 :  1.000 
+ 30 732_Part_Co   (57)    1 :  1.000 
+ 31 733_Part_Co   (57)    1 :  1.000 
+ 32 737_Part_Co   (35)    1 :  1.000 
+ 33 738_Part_Co   (42)    1 :  1.000 
+ 34 742_Part_Co   (78)    1 :  1.000 
+ 35 759_Part_Co   (35)    1 :  1.000 
+ 36 760_Part_Co   (42)    1 :  1.000 
+ 37 761_Part_Co   (64)    1 :  1.000 
+ 38 765_Part_Co   (64)    1 :  1.000 
+ 39 499_Pter_Br   (57)    2 :  1.000 
+ 40 500_Pter_Br   (85)    2 :  1.000 
+ 41 502_Pter_Br   (50)    2 :  1.000 
+ 42 504_Pter_Br   (71)    2 :  1.000 
+ 43 505_Pter_Br   (92)    2 :  1.000 
+ 44 506_Pter_Br   (57)    2 :  1.000 
+ 45 507_Pter_Br   (78)    2 :  1.000 
+ 46 508_Pter_Br   (92)    2 :  1.000 
+ 47 613_Pter_Br   (57)    2 :  1.000 
+ 48 614_Pter_Br   (57)    2 :  1.000 
+ 49 615_Pter_Br   (64)    2 :  1.000 
+ 50 616_Pter_Br   (57)    2 :  1.000 
+ 51 617_Pter_Br   (71)    2 :  1.000 
+ 52 623_Pter_Br   (50)    2 :  1.000 
+ 53 625_Pter_Br   (57)    2 :  1.000 
+ 54 630_Pter_Br   (64)    2 :  1.000 
+ 55 631_Pter_Br   (64)    2 :  1.000 
+ 56 632_Pter_Br   (64)    2 :  1.000 
+ 57 633_Pter_Br   (50)    2 :  1.000 
+ 58 634_Pter_Br   (57)    2 :  1.000 
+ 59 635_Pter_Br   (50)    2 :  1.000 
+ 60 636_Pter_Br   (42)    2 :  1.000 
+ 61 637_Pter_Br   (78)    2 :  1.000 
+ 62 703_Pter_Br   (57)    2 :  1.000 
+ 63 509_Pcor_Br   (71)    3 :  1.000 
+ 64 510_Pcor_Br   (42)    3 :  1.000 
+ 65 511_Pcor_Br   (50)    3 :  1.000 
+ 66 512_Pcor_Br   (28)    3 :  1.000 
+ 67 513_Pcor_Br   (92)    3 :  1.000 
+ 68 647_Pcor_Br   (64)    3 :  1.000 
+ 69 648_Pcor_Br   (21)    3 :  1.000 
+ 70 649_Pcor_Br   (42)    3 :  1.000 
+ 71 650_Pcor_Br   (71)    3 :  1.000 
+ 72 652_Pcor_Br   (50)    3 :  1.000 
+ 73 654_Pcor_Br   (57)    3 :  1.000 
+ 74 655_Pcor_Br   (42)    3 :  1.000 
+ 75 658_Pcor_Br   (57)    3 :  1.000 
+ 76 660_Pcor_Br   (35)    3 :  1.000 
+ 77 662_Pcor_Br   (57)    3 :  1.000 
+ 78 663_Pcor_Br   (57)    3 :  1.000 
+ 79 664_Pcor_Br   (57)    3 :  1.000 
+ 80 665_Pcor_Br   (71)    3 :  1.000 
+ 81 666_Pcor_Br   (64)    3 :  1.000 
+ 82 667_Pcor_Br   (42)    3 :  1.000 
+ 83 669_Pcor_Br   (28)    3 :  1.000 
+ 84 670_Pcor_Br   (57)    3 :  1.000 
+ 85 671_Pcor_Br   (42)    3 :  1.000 
+ 86 672_Pcor_Br   (28)    3 :  1.000 
+ 87 679_Pcor_Br   (57)    3 :  1.000 
+ 88 680_Pcor_Br   (42)    3 :  1.000 
+ 89 681_Pcor_Br   (92)    3 :  1.000 
+ 90 682_Pcor_Br   (42)    3 :  1.000 
+ 91 683_Pcor_Br   (71)    3 :  1.000 
+ 92 688_Part_Ve   (42)    3 :  1.000 
+
+
+Estimated Allele Frequencies in each cluster
+First column gives estimated ancestral frequencies
+
+
+Locus 1 : 
+25 alleles
+78.8% missing data
+  21   (0.031) 0.031 
+  22   (0.032) 0.032 
+  23   (0.032) 0.032 
+  24   (0.032) 0.032 
+  25   (0.033) 0.033 
+  26   (0.030) 0.030 
+  20   (0.030) 0.030 
+  16   (0.032) 0.032 
+  17   (0.031) 0.031 
+  18   (0.031) 0.031 
+  13   (0.032) 0.032 
+  14   (0.029) 0.029 
+   4   (0.034) 0.034 
+   5   (0.028) 0.028 
+   6   (0.032) 0.032 
+   7   (0.031) 0.031 
+   8   (0.030) 0.030 
+  12   (0.033) 0.033 
+   1   (0.044) 0.044 
+   2   (0.236) 0.237 
+   3   (0.030) 0.030 
+   9   (0.032) 0.032 
+  10   (0.030) 0.029 
+  11   (0.031) 0.031 
+  15   (0.034) 0.034 
+
+Locus 2 : 
+13 alleles
+70.1% missing data
+   1   (0.409) 0.410 
+   2   (0.029) 0.029 
+   3   (0.030) 0.030 
+  11   (0.047) 0.047 
+  12   (0.044) 0.044 
+  13   (0.029) 0.029 
+   5   (0.061) 0.061 
+   4   (0.086) 0.086 
+   6   (0.028) 0.028 
+   7   (0.147) 0.147 
+   8   (0.030) 0.030 
+   9   (0.030) 0.030 
+  10   (0.031) 0.031 
+
+Locus 3 : 
+34 alleles
+60.3% missing data
+   1   (0.128) 0.129 
+   2   (0.018) 0.017 
+  29   (0.019) 0.019 
+  30   (0.019) 0.019 
+  31   (0.019) 0.019 
+  32   (0.018) 0.018 
+  33   (0.020) 0.020 
+  34   (0.019) 0.019 
+   3   (0.139) 0.140 
+   4   (0.019) 0.019 
+   7   (0.028) 0.028 
+   8   (0.019) 0.019 
+   9   (0.019) 0.019 
+  10   (0.047) 0.047 
+  11   (0.027) 0.027 
+  12   (0.020) 0.020 
+  13   (0.018) 0.018 
+  14   (0.057) 0.057 
+   5   (0.019) 0.019 
+   6   (0.019) 0.019 
+  15   (0.017) 0.017 
+  16   (0.019) 0.019 
+  17   (0.019) 0.019 
+  18   (0.018) 0.018 
+  19   (0.029) 0.029 
+  20   (0.028) 0.028 
+  21   (0.018) 0.018 
+  22   (0.037) 0.037 
+  23   (0.018) 0.018 
+  24   (0.029) 0.029 
+  25   (0.018) 0.018 
+  26   (0.019) 0.019 
+  27   (0.019) 0.019 
+  28   (0.019) 0.019 
+
+Locus 4 : 
+26 alleles
+53.3% missing data
+   1   (0.201) 0.202 
+   2   (0.018) 0.018 
+   3   (0.018) 0.018 
+   4   (0.053) 0.053 
+   5   (0.019) 0.019 
+  12   (0.019) 0.018 
+  20   (0.018) 0.018 
+  21   (0.018) 0.017 
+  22   (0.026) 0.026 
+  23   (0.018) 0.018 
+  24   (0.027) 0.027 
+  25   (0.019) 0.018 
+  26   (0.019) 0.019 
+   6   (0.124) 0.124 
+  13   (0.027) 0.027 
+  17   (0.091) 0.091 
+   9   (0.106) 0.106 
+   8   (0.018) 0.018 
+  10   (0.018) 0.018 
+  11   (0.019) 0.019 
+  14   (0.018) 0.018 
+  15   (0.018) 0.018 
+  16   (0.027) 0.027 
+  18   (0.027) 0.027 
+  19   (0.017) 0.017 
+   7   (0.018) 0.018 
+
+Locus 5 : 
+27 alleles
+43.5% missing data
+   1   (0.092) 0.093 
+   2   (0.016) 0.015 
+   3   (0.138) 0.139 
+   4   (0.014) 0.014 
+   5   (0.040) 0.039 
+   6   (0.015) 0.015 
+  23   (0.016) 0.015 
+  24   (0.015) 0.015 
+  25   (0.024) 0.024 
+  26   (0.015) 0.015 
+  27   (0.016) 0.016 
+   7   (0.015) 0.015 
+   8   (0.023) 0.023 
+   9   (0.016) 0.016 
+  10   (0.091) 0.092 
+  14   (0.015) 0.015 
+  11   (0.166) 0.167 
+  15   (0.014) 0.014 
+  12   (0.069) 0.069 
+  13   (0.060) 0.061 
+  16   (0.015) 0.015 
+  17   (0.029) 0.029 
+  18   (0.023) 0.023 
+  19   (0.015) 0.015 
+  20   (0.015) 0.015 
+  21   (0.016) 0.016 
+  22   (0.016) 0.015 
+
+Locus 6 : 
+20 alleles
+48.4% missing data
+   1   (0.285) 0.286 
+   2   (0.026) 0.026 
+  19   (0.018) 0.017 
+  20   (0.017) 0.017 
+   3   (0.113) 0.113 
+   4   (0.078) 0.078 
+   5   (0.018) 0.018 
+   6   (0.018) 0.018 
+   7   (0.035) 0.035 
+  11   (0.034) 0.034 
+  12   (0.018) 0.017 
+  13   (0.018) 0.017 
+   8   (0.045) 0.045 
+   9   (0.070) 0.070 
+  10   (0.112) 0.112 
+  14   (0.026) 0.026 
+  15   (0.017) 0.017 
+  16   (0.018) 0.017 
+  17   (0.017) 0.017 
+  18   (0.018) 0.018 
+
+Locus 7 : 
+21 alleles
+54.3% missing data
+   1   (0.247) 0.249 
+  17   (0.018) 0.018 
+  18   (0.057) 0.057 
+  20   (0.019) 0.019 
+  19   (0.019) 0.019 
+  21   (0.020) 0.020 
+   2   (0.131) 0.132 
+   3   (0.019) 0.019 
+   6   (0.028) 0.028 
+   7   (0.030) 0.030 
+   8   (0.019) 0.019 
+   4   (0.096) 0.096 
+   5   (0.103) 0.104 
+   9   (0.028) 0.028 
+  10   (0.019) 0.019 
+  11   (0.019) 0.019 
+  12   (0.019) 0.019 
+  13   (0.039) 0.039 
+  14   (0.020) 0.019 
+  15   (0.029) 0.029 
+  16   (0.018) 0.018 
+
+Values of parameters used in structure:
+DATAFILE=C:\Users\malva\OneDrive - Universidad del rosario\Escritorio\Uni\Semestre IV\CABBIO\inputs_archivos\1_STRUCTURE\psammolestes_cabbio\project_data,	OUTFILE=C:\Users\malva\OneDrive - Universidad del rosario\Escritorio\Uni\Semestre IV\CABBIO\inputs_archivos\1_STRUCTURE\psammolestes_cabbio\params_psammo_cabbio\Results\params_psammo_cabbio_run_3,	NUMINDS=92,	NUMLOCI=7,	MISSING=-9,	LABEL=1,	POPDATA=1,	POPFLAG=1,	PHENOTYPE=0,	EXTRACOLS=0,	MAXPOPS=1,	BURNIN=100000,	NUMREPS=100000,	USEPOPINFO=0,	INFERALPHA=1,	INFERLAMBDA=0,	POPSPECIFICLAMBDA=0,	POPALPHAS=0,	COMPUTEPROB=1,	NOADMIX=0,	ADMBURNIN=2500,	UPDATEFREQ=1,	PRINTLIKES=0,	INTERMEDSAVE=0,	PRINTKLD=0,	PRINTNET=0,	PRINTLAMBDA=0,	ANCESTDIST=0,	NUMBOXES=1000,	ANCESTPINT=0.90000,	GENSBACK=2,	MIGRPRIOR=0.05000,	PRINTQHAT=0,	PRINTQSUM=0,	ALPHA=1.0000,	FREQSCORR=1,	FPRIORMEAN=0.0100,	FPRIORSD=0.0500,	ONEFST=0,	LAMBDA=1.0000,	UNIFPRIORALPHA=1,	ALPHAMAX=10.0000,	ALPHAPRIORA=1.0000,	ALPHAPRIORB=2.0000,	ALPHAPROPSD=0.0250,	STARTATPOPINFO=1,	RANDOMIZE=1,	LINKAGE=0,	METROFREQ=10,	REPORTHITRATE=0,	MARKOVPHASE=-1,	PHASED=0,	PLOIDY=2,	PHASEINFO=0	LOCPRIOR=1, 	LOCPRIORINIT=1.000000, 	LOCDATA=1, 	LOCISPOP=0, 	LOCPRIORSTEP=0.100000, 	MAXLOCPRIOR=20.000000, 	SEED=1693028666,	
+[STRAT parameters]:    NUMSIMSTATS=1000,	PHENOTYPECOL=-9,	POOLFREQ=10,	LOCUSxONLY=0,	EMERROR=0.00100,	MISSINGPHENO=-9,	
